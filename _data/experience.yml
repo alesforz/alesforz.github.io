@@ -1,13 +1,45 @@
 # Jobs
 # VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: NEC Laboratories Europe
+  position: Software Engineer
+  group: System Security Group
+  duration: Jul, 2020 &mdash; Jan, 2023
+  summary: >
+    <ul>
+      <li>
+        Led teams of up to 3 people as the lead engineer on several blockchain software projects, delivering all projects as a CLI client interfacing with a containerized (REST) API server. 
+        Designed, developed, and tested backend and application layers for each project, resulting in successful implementation of, among others, the following solutions:
+        <ul class="Resume-item-list">
+          <li>
+            Implemented a privacy-preserving solution for storing users’ biometric data on public clouds.
+          </li>
+          <li>
+            Developed an NFT-based marketplace that enabled secure and transparent transactions
+          </li>
+          <li>
+            Used graph algorithms to detect and solve network bottlenecks, optimizing network performance.
+          </li>
+          <li>
+            Developed an application layer of a supply-chain that reduced both time and costs for dispute resolution by 75%.
+          </li>
+        </ul>
+      </li>
+      <li>
+        Lead engineer of <a href="https://cybersec4europe.eu">CyberSec4Europe</a>, leading up to 25 EU-based organizations to design, implement, and test advanced cybersecurity prototypes.
+        Oversaw engineering roadmaps and documentation deliverables for each project, resulting in successful completion and deployment of solutions that enhanced security measures.
+      </li>
+      <li>
+        Mentored interns by planning milestones, reviewing their code, and helping them become autonomous in translating requirements into concrete implementations.
+      </li>
+      <li>
+        Responsible for the infrastructure and security of the IT equipment—a cluster of ~20 servers—of the group.
+      </li>
+    </ul>
 
 # Director of Digital Stratgy
 - company: United Nations Human Rights Council
   position: Director of Digital Strategy
+  group: System Security Group
   duration:  Jun, 2010 &mdash; Sept, 2013
   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
 
@@ -15,5 +47,6 @@
 # Communications Coordinator
 - company: Springfield Women & Children's Center
   position: Communications Coordinator
+  group: System Security Group
   duration:   Jun, 2008  &mdash; May, 2010
   summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
