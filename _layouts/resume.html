@@ -92,8 +92,20 @@
           >
             {{ patent.authors }}
           </h4>
-          [<a href={{ patent.file }}>pdf</a>] [<a href= {{ patent.url }}>Google Scholar</a>]
-        </div> 
+          <ul class="icon-links icon-links-left">
+            <li class="icon-link-item">
+                <a href="{{ patent.file }}" class="icon-link" itemprop="sameAs">
+                  {% include icons/icon-pdf.html %}
+                </a>
+            </li>
+            <li class="icon-link-item">
+                <a href="{{ patent.url }}" class="icon-link" itemprop="sameAs">
+                  {% include icons/icon-scholar.html %}
+                </a>
+            </li>
+          </ul>
+        </div>
+        <br><br>
         {% endfor %}
       </section>
       {% endif %}
@@ -119,8 +131,20 @@
             {{ publication.authors }}
           </h4>
           <p class="resume-item-copy" ><i>{{ publication.venue }}</i></p>
-          [<a href={{ publication.file }}>pdf</a>] [<a href= {{ publication.url }}>Google Scholar</a>]
-        </div> 
+          <ul class="icon-links icon-links-left">
+            <li class="icon-link-item">
+                <a href="{{ publication.file }}" class="icon-link" itemprop="sameAs">
+                  {% include icons/icon-pdf.html %}
+                </a>
+            </li>
+            <li class="icon-link-item">
+                <a href="{{ publication.url }}" class="icon-link" itemprop="sameAs">
+                  {% include icons/icon-scholar.html %}
+                </a>
+            </li>
+          </ul>
+        </div>
+        <br>
         {% endfor %}
       </section>
       {% endif %}
