@@ -1,13 +1,23 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Summer School
+  uni: Foundations of Security Analysis and Design (FOSAD)
+  year: 2016
+  # awards:
+  summary: The main aim of the <a href="http://www.sti.uniurb.it/events/fosad16/">FOSAD</a> school is to offer a good spectrum of current research in foundations of security, ranging from programming languages to analysis of protocols, from cryptographic algorithms to access control policies and trust management.
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: M.Sc. in Computer Science
+  uni: University of Padua
+  year: 2015
+  # award: Most likely to succeed
+  summary: >-
+    Specialized on secure distributed systems.<br>
+    Thesis supervisor: <a href="https://www.math.unipd.it/~conti/">Mauro Conti</a>
+
+- degree: Exchange Student, Erasmus Program
+  uni: Technical University of Denmark
+  year: 2012
+  summary: Focused on network security and real-time systems classes.
+
+- degree: B.Sc. in Computer Science
+  uni: University of Padua
+  year: 2010
