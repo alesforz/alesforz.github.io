@@ -72,6 +72,31 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_patents %}
+      <!-- begin publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Patents</h2>
+        </header>
+
+        {% for patent in site.data.patents %}
+        <div
+          class="resume-item"
+          itemscope itemprop="publication"
+          itemtype="https://schema.org/CreativeWork"
+        >
+          <h3 class="resume-item-title" itemprop="about">{{ patent.title }}</h3>
+          <h4 
+            class="resume-item-details group"
+            itemprop="author"
+          >
+            {{ patent.authors }}
+          </h4>
+          [<a href={{ patent.file }}>pdf</a>] [<a href= {{ patent.url }}>Google Scholar</a>]
+        </div> 
+        {% endfor %}
+      </section>
+      {% endif %}
 
       {% if site.resume_section_publications %}
       <!-- begin publications -->
