@@ -70,7 +70,7 @@
       duration: 2016 &mdash; 2018
       summary: Designed and developed <a href="https://www.nec.com/en/global/solutions/blockchain/features-of-nec-blockchain.html">NEC enterprise blockchain</a> with a 3-person team, resulting in a reliable platform used in all NEC commercial and research blockchain-based software. Contributed to microservices architecture, backend API design, and implemented both APIs and client web app.
 
-    - title: Intern
+    # - title: Intern
     #   group: System Security Group
     #   duration: 2015
     #   summary: Assessed an Intrusion Detection System (<a href="https://www.snort.org">Snort</a>) use in IoT architectures by analyzing its performance in a specially designed IoT testbed. Carried out packet and traffic analysis to examine its behavior under different network loads. 

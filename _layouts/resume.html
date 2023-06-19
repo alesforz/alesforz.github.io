@@ -73,6 +73,34 @@
       {% endif %}
 
 
+      {% if site.resume_section_publications %}
+      <!-- begin publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        {% for publication in site.data.publications %}
+        <div
+          class="resume-item"
+          itemscope itemprop="publication"
+          itemtype="https://schema.org/CreativeWork"
+        >
+          <h3 class="resume-item-title" itemprop="about">{{ publication.title }}</h3>
+          <h4 
+            class="resume-item-details group"
+            itemprop="author"
+          >
+            {{ publication.authors }}
+          </h4>
+          <p class="resume-item-copy" ><i>{{ publication.venue }}</i></p>
+          [<a href={{ publication.link }}>pdf</a>]
+        </div> 
+        {% endfor %}
+      </section>
+      {% endif %}
+
+
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">

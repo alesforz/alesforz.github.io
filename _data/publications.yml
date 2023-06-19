@@ -1,0 +1,18 @@
+- authors: Alessandro Sforzin, Matteo Maso, Claudio Soriente, Ghassan Karame
+  title: On the Storage Overhead of Proof-of-Work Blockchains
+  year: 2022
+  venue: Proceedings of the 5th IEEE International Conference on Blockchain (Blockchain 2022)
+  url: https://arxiv.org/pdf/2205.04108
+  link: files/pub1.pdf
+
+- authors: Wenting Li, Alessandro Sforzin, Sergey Fedorov, Ghassan Karame
+  title: Towards Scalable and Private Industrial Blockchains
+  year: 2017
+  venue: Proceedings of the ACM Workshop on Blockchain, Cryptocurrencies, and Contracts (BCC '17')
+  link: files/pub2.pdf
+
+- authors: Alessandro Sforzin, Felix Gomez Marmol, Mauro Conti, Jens-Matthias Bohli
+  title: Raspberry Pi IDS - A Fruitful Intrusion Detection System for IoT
+  year: 2016
+  venue: Proceedings of the 13th IEEE International Conference on Advanced and Trusted Computing (ATC '16)
+  link: files/pub3.pdf
