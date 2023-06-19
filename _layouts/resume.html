@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/circular_avatar.png" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -94,10 +94,32 @@
             {{ publication.authors }}
           </h4>
           <p class="resume-item-copy" ><i>{{ publication.venue }}</i></p>
-          [<a href={{ publication.link }}>pdf</a>]
+          [<a href={{ publication.file }}>pdf</a>] [<a href= {{ publication.url }}>Google Scholar</a>]
         </div> 
         {% endfor %}
       </section>
+      {% endif %}
+
+      {% if site.resume_section_awards %}
+      <!-- begin Recognition -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Awards</h2>
+        </header>
+
+        {% for award in site.data.awards %}
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="award">{{ award.award }}</h3>
+          <h4 class="resume-item-details">
+            {{ award.organization }} &bull; {{ award.year }}
+          </h4>
+          <p class="resume-item-copy">{{ award.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Recognition -->
       {% endif %}
 
 
@@ -165,26 +187,6 @@
 
       </section>
       <!-- end Skills -->
-      {% endif %}
-
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Recognition</h2>
-        </header>
-
-        {% for recognition in site.data.recognitions %}
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Recognition -->
       {% endif %}
 
       {% if site.resume_section_associations %}
@@ -263,10 +265,10 @@
       <!-- end Print Social Links -->
       {% endif %}
 
-      <footer class="page-footer">
+      <!-- <footer class="page-footer">
         <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
         <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
+      </footer> -->
 
     </div>
 
