@@ -1,12 +1,14 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- title: Programming Languages
+  description: >
+    <ul>
+      <li>Main: Go</li>
+      <li>Previous Experience: C, Java, JavaScript, Python</li>
+      <li>Learning: Rust</li>
+    </ul>
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- title: Tools
+  description: AWS S3, Bitbucket, Docker, Git, Github, Gitlab, Kubernetes, Jenkins, LaTeX, LevelDB, Postgres, RethinkDB
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- title: Other
+  description: System architecture and API design, unit/integration/e2e testing, performance evaluation
