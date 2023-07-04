@@ -108,6 +108,14 @@
   }
 }
 
+.icon-links-left {
+  @include media_larger_than_mobile {
+    float: left;
+  }
+}
+
+
+
 .contact-button {
   @include border-radius(3px);
   background-color: #efefef;
