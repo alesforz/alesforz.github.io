@@ -1,6 +1,6 @@
 # Site settings
 title: "Alessandro Sforzin Homepage"
-description: "Alessandro Sforzin Curriculum Vitae"
+description: "Alessandro Sforzin Homepage"
 
 # Build settings
 markdown: kramdown
@@ -14,7 +14,7 @@ resume_name:                    "Alessandro Sforzin"
 resume_title:                   "Distributed Systems Engineer, Go Developer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "mail@alesforz.eu"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       ""
@@ -24,7 +24,17 @@ resume_contact_address:         ""
 resume_header_contact_info:     "🇮🇹 born in 1988 • Based in Heidelberg 🇩🇪"
 display_header_contact_info:    "true"
 
-resume_header_intro: <p>As a software engineer with a track record of successfully transferring R&D projects into corporate products, I thrive in fast-paced environments and enjoy working with researchers and business units to turn abstract ideas into tangible solutions. My skills in identifying requirements and managing time effectively have proven invaluable in my work with state-of-the-art security research and technologies. My passion lies in secure distributed systems R&D using Go, and I'm always eager to expand my knowledge and skills. I possess excellent communication skills and thrive in team environments where collaboration and innovation are encouraged. Recently, I've been engaging in the <a href="https://cryptopals.com">Matasano Cryptopals</a> cryptography challenges; it's good fun.</p>
+resume_header_intro: >
+  <p>Hey there!
+  I'm a software engineer excited about transforming innovative research projects into reality.
+  I thrive in a collaborative environment and enjoy working with both researchers and business teams to turn abstract ideas into practical solutions.
+  You'll often find me knee-deep in creating software using Go, which is my favorite programming language!
+  Lately, I've also been having a blast tackling the <a href="https://cryptopals.com">Matasano Cryptopals</a> cryptography challenges-ever thought about what it takes to break a cipher?<br>
+  When I'm not programming, you'll find me exploring different worlds through books, baking gluten-free stuff, or attempting to lift heavy things (and then putting them down).
+  What else?
+  I have a slight obsession with statistics: I can't resist creating charts about things in my life; it helps me make sense of the world around me, plus those lines and bars do something to my dopamine levels.<br><br>
+  So, what brings you here today?</p>
+
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
