@@ -61,7 +61,7 @@
           {% if skill.description.first %}
             <ul>
               {% for subkey in skill.description %}
-                <li><p class="resume-item-copy"><b>{{ subkey[0] }}:</b> {{ subkey[1] }}</p></li>
+                <li style="line-height: 1em;"><p class="resume-item-copy"><b>{{ subkey[0] }}:</b> {{ subkey[1] }}</p></li>
               {% endfor %}
             </ul>
           {% else %}
@@ -108,10 +108,10 @@
 
       {% for patent in site.data.patents %}
       <div class="resume-item" itemscope itemprop="publication" itemtype="https://schema.org/CreativeWork">
-        <h3 class="resume-item-title" itemprop="about">{{ patent.title }}</h3>
-        <h4 class="resume-item-details group" itemprop="author">
+        <h4 class="resume-item-details" style="margin-bottom: 0px;" itemprop="about">{{ patent.title }}</h4>
+        <p class="resume-item-copy" style="margin-top: 0px;" itemprop="author">
           {{ patent.authors }}
-        </h4>
+        </p>
         <ul class="icon-links icon-links-left">
           <li class="icon-link-item">
             <a href="{{ patent.file }}" class="icon-link" itemprop="sameAs">
@@ -139,11 +139,11 @@
 
       {% for publication in site.data.publications %}
       <div class="resume-item" itemscope itemprop="publication" itemtype="https://schema.org/CreativeWork">
-        <h3 class="resume-item-title" itemprop="about">{{ publication.title }}</h3>
-        <h4 class="resume-item-details group" itemprop="author">
+        <h4 class="resume-item-details" style="margin-bottom: 0px;" itemprop="about">{{ publication.title }}</h4>
+        <p class="resume-item-copy" style="margin-top: 0px;" itemprop="author">
           {{ publication.authors }}
-        </h4>
-        <p class="resume-item-copy"><i>{{ publication.venue }}</i></p>
+        </p>
+        <p class="resume-item-copy" style="margin-top: 0px;"><i>{{ publication.venue }}</i></p>
         <ul class="icon-links icon-links-left">
           <li class="icon-link-item">
             <a href="{{ publication.file }}" class="icon-link" itemprop="sameAs">

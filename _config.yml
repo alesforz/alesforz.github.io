@@ -20,8 +20,9 @@ resume_contact_email:           "lisasimpson@youremailaddress.com"
 resume_contact_telephone:       ""
 resume_contact_address:         ""
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "false"
+# resume_header_contact_info:     "Heidelberg, Germany • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "🇮🇹 born in 1988 • Based in Heidelberg 🇩🇪"
+display_header_contact_info:    "true"
 
 resume_header_intro: <p>As a software engineer with a track record of successfully transferring R&D projects into corporate products, I thrive in fast-paced environments and enjoy working with researchers and business units to turn abstract ideas into tangible solutions. My skills in identifying requirements and managing time effectively have proven invaluable in my work with state-of-the-art security research and technologies. My passion lies in secure distributed systems R&D using Go, and I'm always eager to expand my knowledge and skills. I possess excellent communication skills and thrive in team environments where collaboration and innovation are encouraged. Recently, I've been engaging in the <a href="https://cryptopals.com">Matasano Cryptopals</a> cryptography challenges; it's good fun.</p>
 
@@ -50,7 +51,7 @@ resume_social_links:
   resume_github_url:            "https://github.com/alesforz"
   # resume_twitter_url:           "http://twitter.com/"
   # resume_dribbble_url:          "https://dribbble.com/"
-  # resume_facebook_url:          "insert Facebook URL here"
+  resume_facebook_url:          "https://www.facebook.com/alessandro.sforzin"
   resume_linkedin_url:          "https://www.linkedin.com/in/alesforz/"
   # resume_instagram_url:         "insert your Instagram URL here"
   # resume_website_url:           "http://joelglovier.com"
