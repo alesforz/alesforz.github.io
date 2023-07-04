@@ -1,14 +1,16 @@
 # Skills
 - title: Programming Languages
-  description: >
-    <ul>
-      <li>Main: Go</li>
-      <li>Previous Experience: C, Java, JavaScript, Python</li>
-      <li>Learning: Rust</li>
-    </ul>
+  description:
+    Main: Go
+    Previous Experience: C, Java, JavaScript, Python
+    Learning: Rust
 
 - title: Tools
-  description: AWS S3, Bitbucket, Docker, Git, Github, Gitlab, Kubernetes, Jenkins, LaTeX, LevelDB, Postgres, RethinkDB
+  description: 
+    Containers: Docker, Kubernetes
+    Storage: AWS S3, LevelDB, Postgres, RethinkDB
+    Version Control: Bitbucket, Git, Github, Gitlab
+    Other: LaTeX
 
 - title: Other
-  description: System architecture and API design, unit/integration/e2e testing, performance evaluation
+  description: "Distributed systems architecture, API design, unit/integration/e2e testing, benchmarking, technical writing"
