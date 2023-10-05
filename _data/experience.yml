@@ -1,5 +1,11 @@
 # Jobs
 # VP of Global Communications
+- company: Consensys
+  position:
+    - title: Lead Go Engineer
+    group: Linea
+    duration: Oct, 2023 &mdash; present
+    summary: Working on Linea's zkEVM rollup for Ethereum.
 - company: NEC Laboratories Europe
   position:
     - title: Software Engineer
