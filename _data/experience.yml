@@ -3,9 +3,9 @@
 - company: Consensys
   position:
     - title: Lead Go Engineer
-    group: Linea
-    duration: Oct, 2023 &mdash; present
-    summary: Working on Linea's zkEVM rollup for Ethereum.
+      group: Linea
+      duration: Oct, 2023 &mdash; present
+      summary: Working on <a href="https://linea.build">Linea's zkEVM rollup</a> for Ethereum.
 - company: NEC Laboratories Europe
   position:
     - title: Software Engineer
