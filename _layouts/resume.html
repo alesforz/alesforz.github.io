@@ -107,14 +107,14 @@
       </header>
 
       {% for patent in site.data.patents %}
-      <div class="resume-item" itemscope itemprop="publication" itemtype="https://schema.org/CreativeWork">
+      <div class="resume-item">
         <h4 class="resume-item-details" style="margin-bottom: 0px;" itemprop="about">{{ patent.title }}</h4>
         <p class="resume-item-copy" style="margin-top: 0px;" itemprop="author">
           {{ patent.authors }}
         </p>
         <ul class="icon-links icon-links-left">
           <li class="icon-link-item">
-            <a href="{{ patent.file }}" class="icon-link" itemprop="sameAs">
+            <a href="{{ patent.file }}" class="icon-link">
               {% include icons/icon-pdf.html %}
             </a>
           </li>
@@ -138,7 +138,7 @@
       </header>
 
       {% for publication in site.data.publications %}
-      <div class="resume-item" itemscope itemprop="publication" itemtype="https://schema.org/CreativeWork">
+      <div class="resume-item">
         <h4 class="resume-item-details" style="margin-bottom: 0px;" itemprop="about">{{ publication.title }}</h4>
         <p class="resume-item-copy" style="margin-top: 0px;" itemprop="author">
           {{ publication.authors }}
@@ -146,7 +146,7 @@
         <p class="resume-item-copy" style="margin-top: 0px;"><i>{{ publication.venue }}</i></p>
         <ul class="icon-links icon-links-left">
           <li class="icon-link-item">
-            <a href="{{ publication.file }}" class="icon-link" itemprop="sameAs">
+            <a href="{{ publication.file }}" class="icon-link">
               {% include icons/icon-pdf.html %}
             </a>
           </li>
