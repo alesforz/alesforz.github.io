@@ -4,8 +4,19 @@
   position:
     - title: Lead Go Engineer
       group: Linea
-      duration: Oct, 2023 &mdash; present
-      summary: Working on <a href="https://linea.build">Linea's zkEVM rollup</a> for Ethereum.
+      duration: Oct, 2023 &mdash; Mar, 2024
+      summary: >
+        <ul>
+          <li>
+            Lead Go developer of <a href="https://linea.build">Linea's zkEVM rollup</a> for the Ethereum blockchain.
+          </li>
+          <li>
+            Responsible for defining and executing a roadmap to reduce tech debt: led the refactoring of legacy code, established documentation best practices, wrote internal wikis, set code style guides to write readable and idiomatic Go
+          </li>
+          <li>
+            Worked with DevOps and SRE teams to deploy software in production Kubernetes clusters and debug deployment issues; wrote Helm charts as well.
+          </li>
+        </ul>
 - company: NEC Laboratories Europe
   position:
     - title: Software Engineer
