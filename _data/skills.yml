@@ -3,12 +3,12 @@
   description:
     Main: Go
     Previous Experience: C, Java, JavaScript, Python
-    Learning: Rust
 
 - title: Tools
   description: 
     Containers: Docker, Kubernetes
-    Storage: AWS S3, LevelDB, Postgres, RethinkDB
+    Observability: Grafana, Argo CD
+    Storage: AWS, LevelDB, Postgres, RethinkDB
     Version Control: Bitbucket, Git, Github, Gitlab
     Other: LaTeX
 
