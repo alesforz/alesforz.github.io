@@ -8,7 +8,7 @@
       summary: >
         <ul>
           <li>
-            Lead Go developer of <a href="https://linea.build">Linea's zkEVM rollup</a> for the Ethereum blockchain.
+            Lead Go developer of <a href="https://linea.build">Linea's zkEVM rollup</a>, an Ethereum L2 solution handling over 4.7M daily transactions with 576K daily active users.
           </li>
           <li>
             Responsible for defining and executing a roadmap to reduce tech debt: led the refactoring of legacy code, established documentation best practices, wrote internal wikis, set code style guides to write readable and idiomatic Go
