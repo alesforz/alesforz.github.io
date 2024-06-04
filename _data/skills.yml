@@ -2,15 +2,13 @@
 - title: Programming Languages
   description:
     Main: Go
-    Previous Experience: C, Java, JavaScript, Python
+    Previous Experience: C, JavaScript, Python
 
 - title: Tools
   description: 
     Containers: Docker, Kubernetes
     Observability: Grafana, Argo CD
-    Storage: AWS, LevelDB, Postgres, RethinkDB
-    Version Control: Bitbucket, Git, Github, Gitlab
-    Other: LaTeX
+    Storage: AWS S3, LevelDB, Postgres 
 
-- title: Other
-  description: "Distributed systems architecture, API design, unit/integration/e2e testing, benchmarking, technical writing"
+# - title: Other
+  # description: "Distributed systems architecture, API design, unit/integration/e2e testing, benchmarking, technical writing"

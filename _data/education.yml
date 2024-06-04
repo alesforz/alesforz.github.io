@@ -1,22 +1,19 @@
 # Degree
 - degree: Summer School
-  uni: Foundations of Security Analysis and Design (FOSAD)
+  uni: Foundations of Security Analysis and Design (<a href="http://www.sti.uniurb.it/events/fosad16/">FOSAD</a>)
   year: 2016
   # awards:
-  summary: The main aim of the <a href="http://www.sti.uniurb.it/events/fosad16/">FOSAD</a> school is to offer a good spectrum of current research in foundations of security, ranging from programming languages to analysis of protocols, from cryptographic algorithms to access control policies and trust management.
 
 - degree: M.Sc. in Computer Science
   uni: University of Padua
   year: 2015
   # award: Most likely to succeed
   summary: >-
-    Specialized on secure distributed systems.<br>
     Thesis supervisors: <a href="https://webs.um.es/felixgm/">Félix Gómez Mármol</a>, <a href="https://www.math.unipd.it/~conti/">Mauro Conti</a>
 
 - degree: Exchange Student, Erasmus Program
   uni: Technical University of Denmark
   year: 2012
-  summary: Focused on network security and real-time systems classes.
 
 - degree: B.Sc. in Computer Science
   uni: University of Padua
