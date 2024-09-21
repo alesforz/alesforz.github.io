@@ -8,4 +8,4 @@ RUN bundle install
 
 COPY . .
 
-CMD [ "bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+CMD [ "bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--incremental"]
