@@ -1,6 +1,6 @@
 # Site settings
-title: "Alessandro Sforzin - Lead Software Engineer"
-description: "CV of a 8-year-experienced Distributed Systems Engineer based in Heidelberg, Germany"
+title: "Alessandro Sforzin - Distributed Systems Engineer"
+description: "CV of a 9-year-experienced Distributed Systems Engineer based in Heidelberg, Germany"
 
 # Build settings
 markdown: kramdown
@@ -26,10 +26,10 @@ display_header_contact_info:    "true"
 
 resume_header_intro: >
   <p>Hey there!
-  I'm a software engineer excited about transforming innovative research projects into reality.
+  I'm a software engineer excited about transforming projects into reality.
   I thrive in a collaborative environment and enjoy working with both researchers and business teams to turn abstract ideas into practical solutions.
   You'll often find me knee-deep in creating software using Go, which is my favorite programming language! My expertise lies in secure distributed systems and I'm continuously eager to expand my knowledge and skills. My contributions haven't gone unnoticed: my work has been recognized through awards and patents that I'm really proud of.<br>
-  When I'm not programming, you'll find me exploring different worlds through books, baking gluten-free stuff, or attempting to lift heavy things (and then putting them down).<br>
+  When I'm not programming, you'll find me exploring different worlds through books, baking gluten-free stuff, or attempting to execute a workout plan.<br>
   I'm always on the lookout for the next big challenge and a fresh cup of espresso to start my day!<br><br>
   So, what brings you here today?</p>
 

@@ -1,5 +1,11 @@
 # Jobs
-# VP of Global Communications
+- company: Informal Systems
+  position:
+  - title: Senior Software Engineer
+    group: Interchain BU
+    duration: Jul, 2024 &mdash; present
+    summary: Maintaining and improving the Go implementation of <a href="https://cometbft.com">CometBFT</a>.
+    
 - company: Consensys
   position:
     - title: Lead Go Engineer
@@ -8,7 +14,7 @@
       summary: >
         <ul>
           <li>
-            Lead Go developer of <a href="https://linea.build">Linea's zkEVM rollup</a>, an Ethereum L2 solution handling over 4.7M daily transactions with 576K daily active users.
+            Lead Go developer of <a href="https://linea.build">Linea's zkEVM rollup</a>, an Ethereum L2 solution handling over 36.5M transactions with 3.7M active users.
           </li>
           <li>
             Responsible for defining and executing a roadmap to reduce tech debt: led the refactoring of legacy code, established documentation best practices, wrote internal wikis, set code style guides to write readable and idiomatic Go
