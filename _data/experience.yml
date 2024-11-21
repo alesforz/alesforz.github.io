@@ -4,7 +4,7 @@
   - title: Senior Software Engineer
     group: Interchain BU
     duration: Jul, 2024 &mdash; present
-    summary: Maintaining and improving the Go implementation of <a href="https://cometbft.com">CometBFT</a>.
+    summary: Maintaining and improving the Go implementation of <a href="https://cometbft.com">CometBFT</a>, a distributed, Byzantine fault-tolerant, deterministic consensus algorithm.
     
 - company: Consensys
   position:
