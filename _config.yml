@@ -14,7 +14,7 @@ resume_name:                    "Alessandro Sforzin"
 resume_title:                   "Distributed Systems Engineer, Go Developer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "alesforz+web@gmail.com"
+resume_contact_email:           ""
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       ""
