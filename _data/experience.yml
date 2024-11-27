@@ -2,14 +2,14 @@
 - company: Informal Systems
   position:
   - title: Senior Software Engineer
-    group: Interchain BU
+    group: CometBFT Team
     duration: Jul, 2024 &mdash; present
     summary: Maintaining and improving the Go implementation of <a href="https://cometbft.com">CometBFT</a>, a distributed, Byzantine fault-tolerant, deterministic consensus algorithm.
     
 - company: Consensys
   position:
     - title: Lead Go Engineer
-      group: Linea
+      group: Linea Team
       duration: Oct, 2023 &mdash; Mar, 2024
       summary: >
         <ul>
