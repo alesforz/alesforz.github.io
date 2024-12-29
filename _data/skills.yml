@@ -9,7 +9,7 @@
   description: 
     Containers: Docker, Kubernetes
     Observability: Grafana, Prometheus
-    Storage: AWS S3, LevelDB, Postgres 
+    Storage: AWS S3, LevelDB, Pebble, Postgres
 
 # - title: Other
   # description: "Distributed systems architecture, API design, unit/integration/e2e testing, benchmarking, technical writing" 
