@@ -4,7 +4,21 @@
   - title: Senior Software Engineer
     group: CometBFT Team
     duration: Jul, 2024 &mdash; present
-    summary: Maintaining and improving the Go implementation of <a href="https://cometbft.com">CometBFT</a>, a distributed, Byzantine fault-tolerant, deterministic consensus algorithm.
+    summary: >
+      <ul>
+        <li>
+          Maintained and improved the Go implementation of <a href="https://cometbft.com">CometBFT</a>, a distributed, Byzantine fault-tolerant, deterministic consensus algorithm.
+          <ul class="Resume-item-list">
+            <li>Reduced memory usage during a node's bootstrap by up to 99%.</li>
+            <li>
+              Optimized database keys creation, increasing speed by up to 85% and reducing heap allocations by up to 50%.
+            </li>
+            <li>
+              Refactored the multi-database layer—reducing support from six backends to one—to significantly streamline maintenance and reduce complexity.
+            </li>
+          <ul>
+        </li>
+      <ul>
     
 - company: Consensys
   position:
