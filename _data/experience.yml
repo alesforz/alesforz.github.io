@@ -16,6 +16,7 @@
             <li>
               Refactored the multi-database layer—reducing support from six backends to one—to significantly streamline maintenance and reduce complexity.
             </li>
+            <li>Extended core protocol to support Ethereum EIP-4844 blobs.</li>
           <ul>
         </li>
       <ul>
