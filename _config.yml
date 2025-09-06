@@ -1,6 +1,6 @@
 # Site settings
 title: "Alessandro Sforzin - Distributed Systems Engineer"
-description: "CV of a 9-year-experienced Distributed Systems Engineer based in Heidelberg, Germany"
+description: "CV of a 10-year-experienced Distributed Systems Engineer based in Heidelberg, Germany"
 
 # Build settings
 markdown: kramdown
@@ -9,20 +9,20 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Alessandro Sforzin"
-resume_title:                   "Distributed Systems Engineer, Go Developer"
+resume_avatar: true
+resume_name: "Alessandro Sforzin"
+resume_title: "Distributed Systems Engineer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           ""
+resume_contact_email: ""
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       ""
-resume_contact_address:         ""
+resume_contact_telephone: ""
+resume_contact_address: ""
 
 # resume_header_contact_info:     "Heidelberg, Germany • 555-7334 • lisasimpson@youremailaddress.com"
-resume_header_contact_info:     "🇮🇹 born in 1988 • Based in Heidelberg 🇩🇪"
-display_header_contact_info:    "true"
+resume_header_contact_info: "🇮🇹 born in 1988 • Based in Heidelberg 🇩🇪"
+display_header_contact_info: true
 
 resume_header_intro: >
   <p>Hey there!
@@ -33,7 +33,6 @@ resume_header_intro: >
   I'm always on the lookout for the next big challenge and a fresh cup of espresso to start my day!<br><br>
   So, what brings you here today?</p>
 
-
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
@@ -42,12 +41,12 @@ resume_header_intro: >
 
 # Decide which sections to use
 # comment out to hide
-resume_section_awards:          true
-resume_section_education:       true
-resume_section_experience:      true
-resume_section_patents:         true
-resume_section_publications:    true
-resume_section_skills:          true
+resume_section_awards: true
+resume_section_education: true
+resume_section_experience: true
+resume_section_patents: true
+resume_section_publications: true
+resume_section_skills: true
 # resume_section_associations:    true
 # resume_section_projects:        true
 # resume_section_links:           true
@@ -56,20 +55,19 @@ resume_section_skills:          true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/alesforz"
+  resume_github_url: "https://github.com/alesforz"
   # resume_twitter_url:           "http://twitter.com/"
   # resume_dribbble_url:          "https://dribbble.com/"
-  resume_facebook_url:          "https://www.facebook.com/alessandro.sforzin"
-  resume_linkedin_url:          "https://www.linkedin.com/in/alesforz/"
+  resume_facebook_url: "https://www.facebook.com/alessandro.sforzin"
+  resume_linkedin_url: "https://www.linkedin.com/in/alesforz/"
   # resume_instagram_url:         "insert your Instagram URL here"
   # resume_website_url:           "http://joelglovier.com"
   # resume_medium_url:            "https://medium.com/"
-  resume_scholar_url:           "https://scholar.google.com/citations?user=sX1j1XsAAAAJ&hl=en"
-resume_print_social_links:      true
+  resume_scholar_url: "https://scholar.google.com/citations?user=sX1j1XsAAAAJ&hl=en"
+resume_print_social_links: true
 
 # Design settings
-resume_theme:                   default
-
+resume_theme: default
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
