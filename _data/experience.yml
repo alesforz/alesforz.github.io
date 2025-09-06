@@ -1,37 +1,37 @@
 # Jobs
 - company: Circle
   position:
-  - title: Senior Software Engineer
-    group: Arc Team
-    duration: Aug, 2025 &mdash; present
-    summary: >
-      Working on the core of <a href="https://arcnetwork.xyz">Arc</a>, a new open Layer-1 blockchain based on <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>, designed to server the next era of stablecoin-native applications.
-      
+    - title: Senior Software Engineer
+      group: Arc Team
+      duration: Aug, 2025 &mdash; present
+      summary: >
+        Working on the core of <a href="https://arcnetwork.xyz">Arc</a>, a new open Layer-1 blockchain based on <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>, designed to server the next era of stablecoin-native applications.
+
 - company: Informal Systems
   position:
-  - title: Senior Software Engineer
-    group: CometBFT/Malachite Team
-    duration: Jul, 2024 &mdash; Aug, 2025
-    summary: >
-      <ul>
-        <li>
-          Maintained and improved <a href="https://cometbft.com">CometBFT</a>, the open-source Go implementation of the Tendermint distributed, Byzantine fault-tolerant, deterministic consensus protocol.
-          <ul class="Resume-item-list">
-            <li>Reduced memory usage during a node's bootstrap by up to 99%.</li>
-            <li>
-              Optimized database keys creation, increasing speed by up to 85% and reducing heap allocations by up to 50%.
-            </li>
-            <li>
-              Refactored the multi-database layer—reducing support from six backends to one—to significantly streamline maintenance and reduce complexity.
-            </li>
-            <li>Extended core protocol to support Ethereum EIP-4844 blobs.</li>
-          </ul>
-        </li>
-        <li>
-          Worked on <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>, the rust implementation of the Tendermint distributed, Byzantine fault-tolerant, consensus protocol. In particular, focused on bridging Malachite with EVM-compatible execution engines, such as <a href="https://github.com/paradigmxyz/reth">reth</a>.
-        </li>
-      <ul>
-    
+    - title: Senior Software Engineer
+      group: CometBFT/Malachite Team
+      duration: Jul, 2024 &mdash; Aug, 2025
+      summary: >
+        <ul>
+          <li>
+            Maintained and improved <a href="https://cometbft.com">CometBFT</a>, the open-source Go implementation of the Tendermint distributed, Byzantine fault-tolerant, deterministic consensus protocol.
+            <ul class="Resume-item-list">
+              <li>Reduced memory usage during a node's bootstrap by up to 99%.</li>
+              <li>
+                Optimized database keys creation, increasing speed by up to 85% and reducing heap allocations by up to 50%.
+              </li>
+              <li>
+                Refactored the multi-database layer—reducing support from six backends to one—to significantly streamline maintenance and reduce complexity.
+              </li>
+              <li>Extended core protocol to support Ethereum EIP-4844 blobs.</li>
+            </ul>
+          </li>
+          <li>
+            Worked on <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>, the rust implementation of the Tendermint distributed, Byzantine fault-tolerant, consensus protocol. In particular, focused on bridging Malachite with EVM-compatible execution engines, such as <a href="https://github.com/paradigmxyz/reth">reth</a>.
+          </li>
+        </ul>
+
 - company: Consensys
   position:
     - title: Lead Go Engineer
@@ -57,7 +57,7 @@
       summary: >
         <ul>
           <li>
-            Led teams of up to 3 people as the lead engineer on several blockchain software projects, delivering all projects as a CLI client interfacing with a containerized (REST) API server. 
+            Led teams of up to 3 people as the lead engineer on several blockchain software projects, delivering all projects as a CLI client interfacing with a containerized (REST) API server.
             Designed, developed, and tested backend and application layers for each project, resulting in successful implementation of, among others, the following solutions:
             <ul class="Resume-item-list">
               <li>
@@ -124,4 +124,4 @@
     # - title: Intern
     #   group: System Security Group
     #   duration: 2015
-    #   summary: Assessed an Intrusion Detection System (<a href="https://www.snort.org">Snort</a>) use in IoT architectures by analyzing its performance in a specially designed IoT testbed. Carried out packet and traffic analysis to examine its behavior under different network loads. 
+    #   summary: Assessed an Intrusion Detection System (<a href="https://www.snort.org">Snort</a>) use in IoT architectures by analyzing its performance in a specially designed IoT testbed. Carried out packet and traffic analysis to examine its behavior under different network loads.
