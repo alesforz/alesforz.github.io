@@ -5,7 +5,7 @@
       group: Arc Team
       duration: Aug, 2025 &mdash; present
       summary: >
-        Working on the core of <a href="https://arcnetwork.xyz">Arc</a>, a new open Layer-1 blockchain based on <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>, designed to server the next era of stablecoin-native applications.
+        Working on the core of <a href="https://arcnetwork.xyz">Arc</a>, a new open Layer-1 blockchain based on a rust implementation of Tendermint (named <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>), designed to serve the next era of stablecoin-native applications.
 
 - company: Informal Systems
   position:
