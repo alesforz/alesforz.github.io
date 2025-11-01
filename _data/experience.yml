@@ -5,7 +5,7 @@
       group: Arc Team
       duration: Aug, 2025 &mdash; present
       summary: >
-        Working on the core of <a href="https://arcnetwork.xyz">Arc</a>, a new open Layer-1 blockchain based on a rust implementation of Tendermint (named <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>), designed to serve the next era of stablecoin-native applications.
+        Working on the core of <a href="https://arcnetwork.xyz">Arc</a>, a new open Layer-1 blockchain based on a rust implementation of <a href="./files/tendermint.pdf">Tendermint</a> (named <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>), designed to serve the next era of stablecoin-native applications.
 
 - company: Informal Systems
   position:
@@ -15,7 +15,7 @@
       summary: >
         <ul>
           <li>
-            Maintained and improved <a href="https://cometbft.com">CometBFT</a>, the open-source Go implementation of the Tendermint distributed, Byzantine fault-tolerant, deterministic consensus protocol.
+            Maintained and improved <a href="https://cometbft.com">CometBFT</a>, the open-source Go implementation of the <a href="./files/tendermint.pdf">Tendermint</a> distributed, Byzantine fault-tolerant, deterministic consensus protocol.
             <ul class="Resume-item-list">
               <li>Reduced memory usage during a node's bootstrap by up to 99%.</li>
               <li>
@@ -28,7 +28,7 @@
             </ul>
           </li>
           <li>
-            Worked on <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>, the rust implementation of the Tendermint distributed, Byzantine fault-tolerant, consensus protocol. In particular, focused on bridging Malachite with EVM-compatible execution engines, such as <a href="https://github.com/paradigmxyz/reth">reth</a>.
+            Worked on <a href="https://github.com/circlefin/malachite?tab=readme-ov-file">Malachite</a>, the rust implementation of the <a href="./files/tendermint.pdf">Tendermint</a> distributed, Byzantine fault-tolerant, consensus protocol. In particular, focused on bridging Malachite with EVM-compatible execution engines, such as <a href="https://github.com/paradigmxyz/reth">reth</a>.
           </li>
         </ul>
 
