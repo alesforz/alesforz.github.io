@@ -1,15 +1,14 @@
 # Skills
 - title: Programming Languages
   description:
-    Expert: Go
-    Junior: Rust
-    Previous Experience: C, JavaScript, Python
+    Primary (10 years): Go
+    Working proficiency (1 year): Rust
+    Previous experience: C, JavaScript, Python
 
 - title: Tools
-  description: 
+  description:
     Containers: Docker, Kubernetes
     Observability: Grafana, Prometheus
     Storage: AWS S3, LevelDB, Pebble, Postgres
-
 # - title: Other
-  # description: "Distributed systems architecture, API design, unit/integration/e2e testing, benchmarking, technical writing" 
+# description: "Distributed systems architecture, API design, unit/integration/e2e testing, benchmarking, technical writing"
