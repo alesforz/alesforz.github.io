@@ -1,6 +1,8 @@
 # Site settings
 title: "Alessandro Sforzin - Distributed Systems Engineer"
 description: "CV of a 10-year-experienced Distributed Systems Engineer based in Heidelberg, Germany"
+url: "https://alesforz.eu"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
@@ -58,10 +60,10 @@ resume_social_links:
   resume_github_url: "https://github.com/alesforz"
   # resume_twitter_url:           "http://twitter.com/"
   # resume_dribbble_url:          "https://dribbble.com/"
-  resume_facebook_url: "https://www.facebook.com/alessandro.sforzin"
+  # resume_facebook_url: "https://www.facebook.com/alessandro.sforzin"
   resume_linkedin_url: "https://www.linkedin.com/in/alesforz/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  # resume_website_url:           "http://joelglovier.com"
+  # resume_website_url:           "https://alesforz.eu"
   # resume_medium_url:            "https://medium.com/"
   resume_scholar_url: "https://scholar.google.com/citations?user=sX1j1XsAAAAJ&hl=en"
 resume_print_social_links: true
