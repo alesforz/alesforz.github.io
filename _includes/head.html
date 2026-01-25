@@ -3,18 +3,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
 
   <!-- Google font typography settings - defined in _config.yml -->
   {% if site.resume_theme == 'default' %}
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700'
+    rel='stylesheet' type='text/css'>
   {% endif %}
 
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="CV, Software Engineer Resume, Software Developer Germany, blockchain, cryptography, Go, golang, Distributed Systems Engineer Resume ">
-
+  <meta name="description"
+    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="canonical"
+    href="{{ page.url | replace:'index.html','' | absolute_url }}">
   {% assign resume_homepage = "/" | absolute_url %}
   {% assign resume_person_id = resume_homepage | append: "#me" %}
   {% assign resume_website_id = resume_homepage | append: "#website" %}
