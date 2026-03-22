@@ -1,4 +1,4 @@
-.PHONY: build-server run-server
+.PHONY: docker-image docker-run
 
 docker-image:
 	docker image build -t resume-template .
