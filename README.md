@@ -25,6 +25,8 @@ Static single-page resume site authored in plain HTML and CSS.
    make docker-run
    ```
 
+   Stop a stale or background container with `make docker-stop`.
+
 ### Without Docker
 
 Any static file server will work. For example:
